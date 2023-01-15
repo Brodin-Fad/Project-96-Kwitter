@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Kwitter II</title>
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" type="text/css" href="style/style.css">
+<script src="kwitter.js"></script>
+</head>
+
+<body>
+	<div class="container"></div>
+
+    <center>
+		
+<div>
+
+<button d="login_button" class="btn btn-primary"  onclick="addUser()">Log In</button>
+
+	<h1 class="header">	
+		Kwitter	II<sup>
+	<img src="m2.png">
+	</sup>
+</h1>
+	<div class="col-lg-4 col-md-6 col-sm-6 col-xs-11 login_div">
+	
+		<h3 >See what is happening in the world right now</h3>
+		<h4 >Join Kwitter today</h4>
+
+
+		<div class="form-group">
+		  <label >User Name:</label>
+		  <input type="text" id="user_name" class="form-control" placeholder="User Name">
+		</div>
+<br>
+<br>
+		<div>
+		<button class="btn btn-success" onclick="addUser()">Add User Name</button>
+        </div>
+<br>
+<br>
+		<div class="form-group">
+			<label>Room Name:</label>
+		<input type="text" id="room_name" class="form-control" placeholder="Room Name">
+        </div>
+<br>
+<br>
+		<div>
+		<button class="btn btn-primary" onclick="addRoom()">Add Room Name</button>
+		</div>
+
+ </div>
+
+</center>
+
+</body>
+
+</html>
